@@ -1,0 +1,21 @@
+return (
+    <>
+    {albumStack &&  (
+        <Grid
+            container
+            direction="row"
+            spacing={2}
+            alignItems="flex-start"
+            sx={{ flexWrap: 'wrap' }}
+        >
+            {albumStack.map((album, index) => (
+                <Grid item key={index}>
+                    <Box className="albumImg">
+                        <CardMedia component='img' image={album.image} />
+                    </Box>
+                </Grid>
+            ))}
+        </Grid>
+    )}
+    </>
+    )
