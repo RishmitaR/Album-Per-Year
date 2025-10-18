@@ -1,21 +1,19 @@
-Album-Per-Year (not the final name) is a personalized web app that lets users connect their Spotify or Last.fm account, enter their birthday, and then select one of their favorite albums from each year they’ve been alive. 
-At the end, the app generates a Topsters-style album chart.The idea for this project came from a trend in online music communities where many of my friends were sharing charts of 
-their favorite albums by year. I wanted to make my own, but it was tedious to recall every album I loved and remember its release year. 
-That inspired me to build a tool that could automate the process in a fun way. While the core functionality of the application is complete, I decided to expand it into a 
-learning project for machine learning and model deployment. The next major feature is a recommendation engine that predicts which albums a user has likely listened to and 
-loved by generating a feature vector from their Spotify or Last.fm profile data. This vector is then passed to a TensorFlow Recommenders model to suggest albums that can
+Album-Per-Year (not the final name) is a personalized web app that lets users connect their Spotify or Last.fm account, enter their birthday, and then select one of their favorite albums from each year they’ve been alive. At the end, the app generates a Topsters-style album chart.The idea for this project came from a trend in online music communities where many of my friends were sharing charts of their favorite albums by year. I wanted to make my own, but it was tedious to recall every album I loved and remember its release year. That inspired me to build a tool that could automate the process in a fun way. While the core functionality of the application is complete, I decided to expand it into a learning project for machine learning and model deployment. The next major feature is a recommendation engine that predicts which albums a user has likely listened to and loved by generating a feature vector from their Spotify or Last.fm profile data. This vector is then passed to a TensorFlow Recommenders model to suggest albums that can
 automatically populate the chart. This approach helps streaming users who don’t typically save full albums to their music library.
+
+Topster Chart Example:
+
 
 **Project Status**
 This project is currently a WIP
-[x] Core backend and Spotify API integration
-[x] PostgreSQL database populated with user and album data
-[x] Frontend: barebones UI for login, birthday input, and album selection
-[x] Simple chart rendering
-[] Integrate Last.fm API
-[] TensorFlow Recommenders model trained and functional (IN PROGRESS)
-[] Machine learning integration with backend (IN PROGRESS)
-[] Deploy live version (IN PROGRESS)
+- [x] Core backend and Spotify API integration
+- [x] PostgreSQL database populated with user and album data
+- [x] Frontend: barebones UI for login, birthday input, and album selection
+- [x] Simple chart rendering
+- [] Integrate Last.fm API
+- [] TensorFlow Recommenders model trained and functional (IN PROGRESS)
+- [] Machine learning integration with backend (IN PROGRESS)
+- [] Deploy live version (IN PROGRESS)
 
 
 **How The Final Product Will Work**
