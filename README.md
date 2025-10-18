@@ -2,6 +2,7 @@ Album-Per-Year (not the final name) is a personalized web app that lets users co
 automatically populate the chart. This approach helps streaming users who don’t typically save full albums to their music library.
 
 Topster Chart Example:
+![topster_chart_example](https://github.com/[RishmitaR]/[Album-Per-Year]/blob/[main]/image.jpg?raw=true)
 
 
 **Project Status**
