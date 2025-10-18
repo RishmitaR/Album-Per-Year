@@ -27,6 +27,7 @@ This project is currently a WIP
 5. Generate the Chart: Once complete, the app creates a Topsters-style album chart, listing each album’s title, artist, release year
 
 **Machine Learning Component**
+
 Training Data:
 40,000+ users from the ListenBrainz dataset with artist, genre, and release information from MusicBrainz
 
@@ -56,7 +57,9 @@ git clone https://github.com/RishmitaR/Album-Per-Year.git
 cd album-per-year
 ```
 2. Install Dependencies
-```npm install```
+```
+npm install
+```
 
 3. Setup Environment File in the server folder
 ```
