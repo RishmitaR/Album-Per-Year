@@ -2,7 +2,7 @@ Album-Per-Year (not the final name) is a personalized web app that lets users co
 automatically populate the chart. This approach helps serve albums to users who don’t typically save full albums to their music library.
 
 <p align="left">
-  <img src="https://github.com/RishmitaR/Album-Per-Year/blob/main/Screenshot%202025-10-18%20151045.png" alt="Topster Chart Example" width="25%">
+  <img src="https://github.com/RishmitaR/Album-Per-Year/blob/main/Screenshot%202025-10-18%20151045.png" alt="Topster Chart Example" width="40%">
   <br>
   <em>Example of the trend</em>
 </p>
@@ -28,11 +28,9 @@ This project is currently a WIP
 
 **Machine Learning Component**
 
-Training Data:
-40,000+ users from the ListenBrainz dataset with artist, genre, and release information from MusicBrainz
+Training Data: 40,000+ users from the ListenBrainz dataset with artist, genre, and release information from MusicBrainz
 
-Goal:
-Recommend albums that fit each user’s listening habits based on limited profile information (e.g., recent plays, top artists).
+Goal: Recommend albums that fit each user’s listening habits based on limited profile information (e.g., recent plays, top artists).
 
 Prediction Workflow:
 1. User logs in with Spotify or Last.fm
@@ -45,6 +43,7 @@ This feature is designed to enhance the experience for users who may not have sa
 The code for the model is currently being developed in a jupyter-notebook stored at this repository: 
 
 To run current web application code:
+
 **Setup & Installation**
 Prerequisites
 Node.js (v18 or later)
