@@ -39,7 +39,7 @@ Prediction Workflow:
 
 This feature is designed to enhance the experience for users who may not have saved albums but still want an accurate reflection of their musical tastes.
 
-The code for the model is currently being developed in a jupyter-notebook stored at this repository: 
+The code for the model is currently being developed in a jupyter-notebook stored at this repository: https://github.com/RishmitaR/Lifetime_Albums_TF_Reccomendor 
 
 To run current web application code:
 
